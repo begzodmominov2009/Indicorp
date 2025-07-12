@@ -1,0 +1,40 @@
+#main {
+    background-image: url("../../img/13ab126b6a3ef58b0abbaf8f4b5e654b6599e125.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-title {
+    font-size: 58px;
+    color: #252B42;
+    padding-top: 80px;
+    font-weight: 800px;
+    line-height: 80px;
+}
+
+.main-subtitle {
+    font-size: 20px;
+    color: var(--text-color);
+    padding-top: 35px;
+    line-height: 30px;
+}
+
+.buttonlar {
+    padding-top: 35px;
+    display: flex;
+    gap: 10px;
+}
+
+.main-btn {
+    width: 185px;
+    height: 48px;
+    background-color: transparent;
+    color: #00A0C1;
+    border-radius: 37px;
+    font-size: 14px;
+    border: 2px solid var(--blue-color);
+}
+.buttonlar button :hover{
+    background-color: #FFA62B;
+}
