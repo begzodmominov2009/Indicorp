@@ -3,6 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 188px;
 }
 
 .main-title {
@@ -11,6 +12,8 @@
     padding-top: 80px;
     font-weight: 800px;
     line-height: 80px;
+    margin-left: 2px;
+    letter-spacing: 0.6px;
 }
 
 .main-subtitle {
@@ -18,12 +21,15 @@
     color: var(--text-color);
     padding-top: 35px;
     line-height: 30px;
+    margin-left: 5px;
+    letter-spacing: 0.4px;
 }
 
 .buttonlar {
     padding-top: 35px;
     display: flex;
     gap: 10px;
+    padding-bottom: 80px;
 }
 
 .main-btn {
@@ -34,7 +40,495 @@
     border-radius: 37px;
     font-size: 14px;
     border: 2px solid var(--blue-color);
+    cursor: pointer;
 }
-.buttonlar button :hover{
-    background-color: #FFA62B;
+
+.buttonlar .main-btn:hover {
+    background-color: var(--orenge-color);
+    color: white;
+    border: none;
+}
+
+.main-btn2 {
+    width: 154px;
+    height: 48px;
+    background-color: transparent;
+    color: #00A0C1;
+    border-radius: 37px;
+    font-size: 14px;
+    border: 2px solid var(--blue-color);
+    cursor: pointer;
+}
+
+.buttonlar .main-btn2:hover {
+    background-color: var(--orenge-color);
+    color: white;
+    border: none;
+}
+
+/* Cardlar css */
+.card {
+    border: 1px solid white;
+    width: 328px;
+    height: 210px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.card img {
+    padding-left: 40px;
+    padding-top: 35px;
+}
+
+.cardlar {
+    display: flex;
+    max-width: 1050px;
+    justify-content: center;
+    gap: 32px;
+    margin-top: -90px;
+
+}
+
+.main2-title {
+    font-size: 24px;
+    font-weight: 700px;
+    margin-top: 10px;
+    margin-left: 40px;
+    letter-spacing: 0.4px;
+}
+
+.main2-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.cardlar .card:hover {
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
+
+.main2 {
+    position: relative;
+    top: -90px;
+}
+
+/* About Us css */
+.about-title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.4px;
+    font-weight: 700px;
+    color: #252B42;
+    margin-top: 192px;
+}
+
+#about {
+    background-color: #FAFAFA;
+}
+
+.about-subtitle {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500px;
+    color: var(--text-color);
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+}
+
+.card1 {
+    border: 1px solid white;
+    width: 238px;
+    height: 209px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.cardla1 .card1:hover {}
+
+.card1 img {
+    padding-left: 91px;
+    padding-top: 30px;
+}
+
+.about-title1 {
+    padding-left: 88.5px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 700px;
+    color: #252B42;
+}
+
+.about-subtitle1 {
+    padding-left: 60.5px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 700px;
+    color: var(--text-color);
+}
+
+.cardlar1 {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.about-title2 {
+    padding-left: 74.4px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 700px;
+    color: #252B42;
+}
+
+/* ADVICE CSS */
+#advice {
+    background-color: #FAFAFA;
+    padding-bottom: 220px;
+}
+
+.advice-title {
+    text-align: center;
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 57px;
+    letter-spacing: 0.4px;
+    padding-top: 205px;
+}
+
+.advice-subtitle {
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 20px;
+    font-weight: 500px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card2 {
+    border: 1px solid white;
+    width: 232px;
+    height: 183px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px gray;
+
+}
+
+.card2 img {
+    width: 232px;
+    height: 138px;
+}
+
+.advice-title1 {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #252B42;
+}
+
+.advice-subtitle1 {
+    color: var(--text-color);
+    padding-top: 15px;
+    padding-left: 30px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    padding-bottom: 30px;
+
+}
+
+.abdive-card {
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+/* SERVICE CSS */
+.service-title {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 57px;
+    font-weight: 700px;
+    letter-spacing: 0.4px;
+}
+
+.service-subtitle {
+    text-align: center;
+    color: var(--text-color);
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+
+.service-head {
+    margin-top: 100px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.service-title1 {
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.service-subtitle1 {
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+}
+
+.service-text {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.service-img {
+    max-width: 30px;
+    height: 30px;
+}
+
+.service-title3 {
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+}
+
+.service-subtitle3 {
+    font-size: 14px;
+    color: #737373;
+    font-weight: 600px;
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+    padding-left:
+}
+
+/* LOGO CSS */
+.section-img {
+    gap: 90px;
+    display: flex;
+    align-items: center;
+    margin-top: 157px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#section {
+    background-color: #FAFAFA;
+    padding-bottom: 85px;
+}
+
+.section-title1 {
+    font-weight: 700px;
+    color: white;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 1px;
+
+}
+
+.section-card {
+    border: 1px solid black;
+    width: 1050px;
+    justify-content: space-around;
+    display: flex;
+    background-color: #16697A;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 145px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-input {
+    width: 370px;
+    height: 58px;
+    margin-left: 150px;
+    padding-left: 25px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.section-btn {
+    height: 58px;
+    width: 117px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: var(--orenge-color);
+}
+
+.section-btn a {
+    color: white;
+}
+
+.section-form {
+    display: flex;
+}
+
+.card3 {
+    border: 1px solid white;
+    width: 327px;
+    height: 333px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.cardlar2 {
+    padding-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.contact-title1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    padding-top: 80px;
+}
+
+.contact-subtitle2 {
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 500px;
+    line-height: 20px;
+}
+
+#contact {
+    background-color: whitesmoke;
+    padding-bottom: 200px;
+}
+
+.card3 img {
+    padding-left: 128px;
+    padding-top: 50px;
+}
+
+.contact-subtitle1 {
+    padding-left: 53.5px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.contact-subtitle {
+    padding-left: 73.5px;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.contact-title {
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 700px;
+    padding-left: 114px;
+    padding-top: 15px;
+}
+
+.contact-btn {
+    width: 160px;
+    height: 44px;
+    border: 1px solid orange;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 84px;
+    margin-top: 15px;
+}
+
+.contact-btn a {
+    color: orange;
+}
+
+.cardlar2 .card3:hover {
+    background-color: #252B42;
+    color: white;
+}
+
+.card3 button a:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.card3 button:hover {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.input-from {
+    display: flex;
+    margin-top: 113px;
+
+}
+
+.input-1 {
+    outline: none;
+    border: 1px solid silver;
+    width: 1050px;
+    height: 50px;
+    cursor: pointer;
+    padding-left: 25px;
+
+}
+
+.input-2 {
+    outline: none;
+    border: 1px solid silver;
+    width: 1050px;
+    height: 150px;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 135px;
+}
+
+select {
+    margin-left: 135px;
+    color: #828282;
+}
+
+.input-type {
+    margin-top: 113px;
+}
+
+.input-btn {
+    width: 163px;
+    height: 58px;
+    background-color: var(--orenge-color);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 550px;
+    margin-top: 60px;
+    font-weight: 700px;
+    margin-bottom: 100px;
 }

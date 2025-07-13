@@ -1,5 +1,26 @@
-footer{
+footer {
     background-color: #16697A;
     padding-top: 90px;
-    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.topm {
+    display: flex;
+    gap: 85px;
+    justify-content:center  ;
+
+
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer ul li{
+    color: white;
+}
+footer ul li a{
+    color: white;
+    font-size: 14px;
 }
